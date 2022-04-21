@@ -1,5 +1,28 @@
 {
+  "type": "module",
   "dependencies": {
     "express": "^4.17.3"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "name": "atividade-get-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1995william/todo-app-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1995william/todo-app-api/issues"
+  },
+  "homepage": "https://github.com/1995william/todo-app-api#readme",
+  "description": ""
 }
